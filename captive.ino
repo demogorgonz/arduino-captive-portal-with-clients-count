@@ -16,7 +16,7 @@ void setup() {
   Serial.println();
   WiFi.mode(WIFI_AP);
   WiFi.softAPConfig(apIP, apIP, IPAddress(255, 255, 255, 0));
-  WiFi.softAP("WiFu");
+  WiFi.softAP("WiFu"); // Access Point NAME
 
   // if DNSServer is started with "*" for domain name, it will reply with
   // provided IP to all DNS request
