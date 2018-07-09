@@ -13,7 +13,7 @@ ESP8266WebServer webServer(80);
 
 String responseHTML = ""
   "<!DOCTYPE html><html><head><title>CaptivePortal</title></head><body>"
-  "<center><h1>Meh, nema dalje!</h1><h1>JBG :'(</h1> </center></body></html>";
+  "<center><h1>Captive portal!</h1><h1>Open serial monitor to see number of connected devices.</h1> </center></body></html>";
 
 void setup() {
   Serial.begin(115200);
